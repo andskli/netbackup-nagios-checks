@@ -2,7 +2,7 @@
 #
 # check_netbackup_tapedrives.sh
 #
-# Check if last NetBackup catalog backup is older then X hours
+# Check status of tape drives in NetBackup
 #
 # Author: Andreas Skarmutsos Lindh <andreas@innovationgroup.se>
 #
