@@ -20,6 +20,8 @@ if [ $THRESHOLD_WARNING -gt $THRESHOLD_CRITICAL ]; then
     exit $RC
 fi
 
+MASTERSERVER=`uname -n`
+
 SUDOBIN=$(which sudo)
 GREPBIN=$(which grep)
 AWKBIN=$(which awk)
@@ -27,7 +29,7 @@ SEDBIN=$(which sed)
 
 VMQUERYBIN=/usr/openv/volmgr/bin/vmquery
 
-CLEANING_TAPES=`$VMQUERYBIN -h secc19.hm.com -b -a|$AWKBIN '/^CLN*/ {print $1}'`
+CLEANING_TAPES=`$VMQUERYBIN -h $MASTERSERVER -b -a|$AWKBIN '/^CLN*/ {print $1}'`
 FINISHED_CLEANING_TAPES=""
 
 for tape in $CLEANING_TAPES; do
