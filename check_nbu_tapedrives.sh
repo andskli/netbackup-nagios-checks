@@ -28,11 +28,8 @@ if [ $# -lt 2 ]; then
     exit $STATE_UNKNOWN
 fi
 
-SUDOBIN=$(which sudo)
-GREPBIN=$(which grep)
-AWKBIN=$(which awk)
-SEDBIN=$(which sed)
 
+AWKBIN=$(which awk)
 VMOPRCMDBIN=/usr/openv/volmgr/bin/vmoprcmd
 TPCONFIGBIN=/usr/openv/volmgr/bin/tpconfig
 
