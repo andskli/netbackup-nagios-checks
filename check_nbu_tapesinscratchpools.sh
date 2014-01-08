@@ -33,7 +33,7 @@ if [ $THRESHOLD_CRITICAL -gt $THRESHOLD_WARNING ]; then
     exit $RC
 fi
 
-if [ $# -gt 2 ]; then
+if [ $# -lt 2 ]; then
     echo "Usage: $0 <warning_threshold> <critical_threshold>"
     exit $STATE_UNKNOWN
 fi
