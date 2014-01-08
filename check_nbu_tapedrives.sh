@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# check_netbackup_tapedrives.sh
+# check_nbu_tapedrives.sh
 #
 # Check status of tape drives in NetBackup
 #
-# Author: Andreas Skarmutsos Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@innovationgroup.se>
 #
 # Takes two arguments. Warning threshold and critical threshold.
 #

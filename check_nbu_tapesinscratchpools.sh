@@ -1,11 +1,11 @@
 #!/bin/sh
 #
-# check_netbackup_tapesinscratchpool.sh
+# check_nbu_tapesinscratchpool.sh
 #
 # Check tapes in scratch pool. Takes two arguments, first is warning
 # threshold and second is critical threshold.
 # Example
-#   ./check_netbackup_tapesinscratchpool.sh 5 0
+#   ./check_nbu_tapesinscratchpool.sh 5 0
 # Will warn when 5 tapes left and move to critical when zero tapes are
 # left in scratch pool
 #

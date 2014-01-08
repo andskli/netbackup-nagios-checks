@@ -1,12 +1,12 @@
 #!/bin/sh
 #
-# check_netbackup_cleaningsleft.sh
+# check_nbu_cleaningsleft.sh
 #
 # Find all netbackup tapes with CLN* barcode, if any with zero cleanings left
 # are found, exit with a warning, if all tapes found all have zero cleanings left
 # exit with critical state.
 #
-# Author: Andreas Skarmutsos Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@innovationgroup.se>
 #
 
 RC=0
