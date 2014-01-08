@@ -22,11 +22,7 @@ fi
 
 MASTERSERVER=`uname -n`
 
-SUDOBIN=$(which sudo)
-GREPBIN=$(which grep)
 AWKBIN=$(which awk)
-SEDBIN=$(which sed)
-
 VMQUERYBIN=/usr/openv/volmgr/bin/vmquery
 
 CLEANING_TAPES=`$VMQUERYBIN -h $MASTERSERVER -b -a|$AWKBIN '/^CLN*/ {print $1}'`
