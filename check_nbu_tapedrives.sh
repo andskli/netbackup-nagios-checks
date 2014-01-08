@@ -30,7 +30,6 @@ fi
 
 
 AWKBIN=$(which awk)
-VMOPRCMDBIN=/usr/openv/volmgr/bin/vmoprcmd
 TPCONFIGBIN=/usr/openv/volmgr/bin/tpconfig
 
 OUTPUT=`$TPCONFIGBIN -dl|$AWKBIN '/Status/ {print $2}'`
