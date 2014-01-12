@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# check_netbackup_tapedrives.sh
+# check_nbu_tapedrives.sh
 #
 # Check status of tape drives in NetBackup
 #
-# Author: Andreas Skarmutsos Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@innovationgroup.se>
 #
 # Takes two arguments. Warning threshold and critical threshold.
 #
@@ -28,12 +28,8 @@ if [ $# -lt 2 ]; then
     exit $STATE_UNKNOWN
 fi
 
-SUDOBIN=$(which sudo)
-GREPBIN=$(which grep)
-AWKBIN=$(which awk)
-SEDBIN=$(which sed)
 
-VMOPRCMDBIN=/usr/openv/volmgr/bin/vmoprcmd
+AWKBIN=$(which awk)
 TPCONFIGBIN=/usr/openv/volmgr/bin/tpconfig
 
 OUTPUT=`$TPCONFIGBIN -dl|$AWKBIN '/Status/ {print $2}'`
