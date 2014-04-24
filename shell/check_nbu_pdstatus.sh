@@ -2,7 +2,7 @@
 #
 # check_nbu_pdstatus.sh
 #
-# Author: Andreas Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@superblock.se>
 #
 # Check status of NetBackup PureDisk. Make sure GET/PUT is OK.
 #

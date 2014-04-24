@@ -4,7 +4,7 @@
 #
 # Check status of tape drives in NetBackup
 #
-# Author: Andreas Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@superblock.se>
 #
 # Takes two arguments. Warning threshold and critical threshold.
 #

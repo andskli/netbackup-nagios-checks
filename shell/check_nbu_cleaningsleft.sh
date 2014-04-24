@@ -6,7 +6,7 @@
 # are found, exit with a warning, if all tapes found all have zero cleanings left
 # exit with critical state.
 #
-# Author: Andreas Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@superblock.se>
 #
 
 RC=0

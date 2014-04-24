@@ -9,7 +9,7 @@
 # Will warn when 5 tapes left and move to critical when zero tapes are
 # left in scratch pool
 #
-# Author: Andreas Lindh <andreas@innovationgroup.se>
+# Author: Andreas Lindh <andreas@superblock.se>
 #
 
 RC=0

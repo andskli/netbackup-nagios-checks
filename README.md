@@ -4,4 +4,6 @@ Nagios/OP5 checks for NetBackup services.
 
 Scripts should be very vanilla so that they are compatible with both nagios and OP5.
 
-See [wiki](https://github.com/InnovationGroupSE/netbackup-nagios-checks/wiki) for more info
+See [wiki](https://github.com/ondmagi/netbackup-nagios-checks/wiki) for more info
+
+Contributions welcome.
