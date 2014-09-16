@@ -14,12 +14,6 @@ PROGNAME=`basename $0`
 PROGPATH=`echo $0 | sed -e 's,[\\/][^\\/][^\\/]*$,,'`
 . $PROGPATH/utils.sh
 
-if [ $THRESHOLD_WARNING -gt $THRESHOLD_CRITICAL ]; then
-    RC=$STATE_CRITICAL
-    echo "ERROR: Warning threshold cannot be higher than critical threshold"
-    exit $RC
-fi
-
 MASTERSERVER=`uname -n`
 
 AWKBIN=$(which awk)
